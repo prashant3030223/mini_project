@@ -15,7 +15,7 @@ for candidate in candidates:
     votes[candidate.strip()] = 0
 cast_vote(votes, 'BJP')
 cast_vote(votes, 'CNG')
-cast_vote(votes, 'Sp')
+cast_vote(votes, 'SP')
 cast_vote(votes, 'AAP')
-cast_vote(votes, 'RJD')
+cast_vote(votes, 'BSP')
 tally_votes(votes)
