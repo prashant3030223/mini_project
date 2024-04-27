@@ -1,3 +1,4 @@
+print("options are BJP,SP,CNG,BSP,AAP")
 def cast_vote(votes, candidate):
     if candidate in votes:
         votes[candidate] += 1
